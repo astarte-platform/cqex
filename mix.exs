@@ -21,7 +21,7 @@ defmodule CQEx.Mixfile do
   end
 
   defp deps do
-    [{ :cqerl, github: "astarte-platform/cqerl" },
+    [{ :cqerl, github: "ispirata/cqerl" },
      {:lz4, github: "szktty/erlang-lz4", override: true, tag: "0.2.4"}]
   end
 
